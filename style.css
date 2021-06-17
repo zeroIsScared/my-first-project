@@ -1,0 +1,137 @@
+﻿@media only screen and (max-width: 772px) {
+     #boxes .box  {
+      width: 100%;
+    }
+  }
+body {
+    font-family: 'Oswald', sans-serif; Verdana, Geneva, Tahoma;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    background-color: HSL(23, 20%, 84%);
+}
+
+/* Global */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.button_1 {
+    background: HSL(30, 100%, 75%) !important;
+    padding: 0 20 0 20;
+    border-radius: 10px;
+}
+
+
+.button_1:hover {
+    color: hsl(315, 50%, 40%) ;
+}
+/*header */
+header {
+    background: HSL(326, 51%, 19%);
+    color: HSL(23, 20%, 84%);
+    padding-top: 0px;
+    min-height: 70px;
+    border-bottom: HSL(23, 20%, 84%) 4px solid;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: HSL(23, 20%, 84%);
+    font-weight: 800;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    margin: 40px 0 0 0;
+  }
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+    }
+
+header nav{
+    float: right;
+}
+
+header a:hover {
+    color: HSL(30, 100%, 75%);
+}
+/* Showcase */
+#showcase {
+    min-height: 400px;
+    background: url('./images/francesco-ungaro-GUq7shfDhYw-unsplash.jpg') no-repeat 0 ;
+    text-align: left;
+    color: HSL(229°, 20%, 26%);
+}
+#showcase h1{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+#offer {
+    background: HSL(326, 51%, 19%);
+    color: HSL(30, 100%, 75%);
+    
+
+}
+
+#offer h1{
+    float: left;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+#offer form {
+    float: right;
+    padding: 0;
+    margin-top: 0;
+   
+}
+
+#offer input[type="email"] {
+    padding: 4px;
+    width: 200px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+/* boxes*/
+#boxes {
+    margin-top: 20px;
+    color: HSL(229°, 20%, 26%);
+}
+
+#boxes .box {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .box img{
+    width: 200px;
+    border-radius: 10px;
+    border: HSL(326, 51%, 19%) solid 2px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: HSL(229°, 20%, 26%);
+    background: ;
+}
